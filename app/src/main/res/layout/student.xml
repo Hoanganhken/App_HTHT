@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hotrohoctap.Student" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        
+        android:gravity="center"
+        android:text="FPT POLYTECHNIC "
+        android:textColor="#3366CC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnInsertClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        
+        android:gravity="center"
+        android:onClick="themLop"
+        android:text="Thêm lớp"
+         />
+
+    <Button
+        android:id="@+id/btnShowListClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        
+        android:gravity="center"
+        android:onClick="xemDanhSachLop"
+        android:text="danh sách lớp"
+         />
+
+    <Button
+        android:id="@+id/btnInsertStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+      
+        android:gravity="center"
+        android:onClick="quanLySinhVien"
+        android:text="Quản lý sv"
+         />
+
+    <Button
+        android:id="@+id/btnResetDatbase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+       
+        android:gravity="center"
+        android:onClick="reasetDatabase"
+        android:text="Reset "
+        />
+
+</LinearLayout>
